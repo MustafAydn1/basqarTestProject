@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>basqarTestProject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <!-- bunun ne oldugunu anlamadım -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+
+
+
+
+    <dependencies>
+
+        <!-- Selenıum eklemek için; artifact Id(yapı Kimliği) ye selenium-java yazılır  -->
+        <dependency>
+          <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>  <!--ilk önce bu kısmı yap... selenium-java yaz gerisi gelir-->
+            <version>3.141.59</version>
+        </dependency>
+
+
+        <!--Cucumber eklemek için; artifact Id ye cucumber-java yazılır. ustte info.cukes seçilir.En ustteki -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <!--testNG eklemek için; artifactId ye testNG yazılır.gelenlerden en usttekiler secilir. -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.1.0</version>
+        </dependency>
+
+        <!--Cucumber-testNG bağlantısı için;artifactId ye cucumber-testNG yazılır. hep en usttekiler seçilir -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <!--webdriver manager  yazarsın,bonigarci a secersin -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>4.2.2</version>
+        </dependency>
+
+
+       <!--BU NEDİR ANLAMADIM -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.21</version>
+            <scope>test</scope>
+        </dependency>
+
+
+
+
+
+        <!--artifactId ye; extentreports  ve cucumber-extentsreport yaz gerisi gelir
+        BU İKİSİ REPORT İÇİNDİR-->
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.0.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>cucumber-extentsreport</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+
+         <!-- poi ve poi-ooxml yazarsan otomatik gelir
+          BU İKİSİ EKRAN FOTOSU İÇİNDİR-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+        <!--BUNU BANA WebDriver için ekletildi -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>3.141.59</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
+
+
+
+
+
+
+
+
+</project>
+
+

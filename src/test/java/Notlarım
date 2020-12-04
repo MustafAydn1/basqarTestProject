@@ -1,0 +1,131 @@
+
+
+appUrl - back - forward - refresh - close functions::
+
+ String appUrl = "https://www.DemoQA.com";
+ driver.get(appUrl);
+
+ // Go back to Home Page
+ driver.navigate().back();
+
+ // Go forward to Registration page
+ driver.navigate().forward();
+
+ // Go back to Home page
+ driver.navigate().to(appUrl);
+
+ // Refresh browser
+ driver.navigate().refresh();
+
+ // Close browser
+ driver.close();
+****************************************************************
+currency:qörinsii::PARA BİRİMİ
+...................................
+
+StaleElementReferenceException;
+
+SDET stands for Software Development Engineer in Test or
+Software Design Engineer in Test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+g20---
+method Overloading feature::
+NUMBERS   different
+dataTypes  difference
+Order TYPES change
+
+Main metodu static oldugu için metodlarıda main metodunda direk ismiyle capırmak için
+static yapmalıyız. static yapmazsan class adıyla nesne olusturup öyle cagırırsın(doğru mu? bak)
+
+static olmayan metodu static metodda cagırabılırsın. bunu incele..
+
+Varargs ın acılımını ögren
+Varargs da object... things desem her type de veri için kullanabılır mıyım?
+Kabul etti ama kullanım alanlarını doğru secelim.
+
+g3-task3 de;
+Varargs Strings ise string  arraylarden oluşur.int içinde öylemi... EVET...TASK4 DE.
+HİÇ DEGER GİRMESENDE HATA VERMEZ.
+int dolt(int a, int b, double c, int ...vals, double ..morevals)//Hata!
+iki tane VArargs kullanmaya izin vermıyor.
+Daima en sona kullanacaksın.
+
+NaN: means "Not a number." It's a special floating point value that means
+that the result of an operation was not defined or not representable as a real number.
+
+Wrapper:: sarmak demek.
+
+Integer object'tir....int degil... buna bak.
+buyuk harfle baslayanlar :: object ....int...byte
+kucuk harfle başlayanlar :: primitive...Integer...Byte
+<>:daymınt parantez denıyor.
+
+ArrayList::
+Arraylist buyuk harfli WrapperClass ları alır.. ArrayList<Integer> ... şeklinde..
+length:: Array in uzunluğunu
+size:: ArrayList uzunlugunu verir.
+
+names.indexof ile sordugun elemanın indexini verir...
+names.clear ile tum list boşalır.
+
+autoboxing:: primitive ---> Wrapper...... otomatik paketleme
+Unboxing:: Wrapper ---> primitive..... kendimiz yapacaz.
+buna bak???
+
+Kutudan cikarmak, yada kutunun icine koymak gibi...
+
+list1.removeAll.list2 ---> list1 in içinden list2 yi çıkar...kesişimi cıkar.
+
+w/  :: with demek

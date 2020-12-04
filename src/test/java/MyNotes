@@ -1,0 +1,20 @@
+countrydelete nın adını degiştir.tum deleteler için.
+wait i öyle bir yere koy ki tum POM lar için kullan.
+*****************************************************
+eger yanındaki veya altındaki inputlara gecemezsen
+robot class dan tab tusuna basarak gecersin... (3.10)
+myElementin oldugu yere koy.
+
+case "inputFormulaValue":
+                myElement.sendKeys(Keys.TAB);
+                myElement = inputFormulaValue;
+                break;
+
+
+********************************
+3.9b  de calender kısmını adam gibi yap.
+mesela    20/12/2017 olsun.
+***********************************
+3.10a da salary modifiers i search için neden
+driver.navigate.back calışmıyor
+***********************************

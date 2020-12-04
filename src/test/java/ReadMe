@@ -1,0 +1,163 @@
+
+PROJE
+1.0) Grup olarak birlikte bir framework oluşturun.
+1.1) Dependencies kodlarını grubunuz ile birlikte ekleyin.
+1.2) Framework'unuzun temel kisimlarini da birlikte oluşturmalısınız. (Driver class ,
+Parent Class seklinde)
+2. Framework`unuzu grup olarak olusturun ve ardından kodu push edin. Daha sonra
+grubunuzun herbir uyesi projeyi klonlamalı ve bu noktadan sonra herkes kendi
+görevine yogunlasmali.
+3. Asagidaki features kisimlari uzerinde çalısmaya baslaya bilirsiniz.
+3.1) Create a country Delete a country. (Bir ulke oluşturun ve onu silin)
+3.2) Create a city Delete a city. (Bir sehir oluşturun ve onu silin)
+3.3) Create a country (name is SOMECOUNTRY )and create a city (choose a
+SOMECOUNTRY from the country dropdown.)
+Bir ülke oluşturun (adı SOMECOUNTRY) olsun ve bir şehir oluşturun (ülkeler
+listesinden önce SOMECOUNTRY ülkesini seçin ve daha sonra bir sehir (ismini siz
+belirleyip) oluşturun.
+Amacınız burada oluşturduğunuz ülkeyi ve sehri silmek.
+Ilk olarak ülkenizi silmeye calisin, ekranda HATA mesajini görmeniz gerekmekte.
+ 3.4) Sisteme eklediginiz ulkenize bir sehir ekledikden sonra Ulkeniz
+SILINEMEMELI. (Bu senaryo mukakkak test edilmeli.)
+3.5) Yeni bir SubjectCategories oluşturun ve daha sonra bir tane SubjectCategories
+SILIN.
+Education> Setup> SubjectCategories
+ 3.6) Yeni bir Subjects oluşturun ve daha sonra bir tane Subjects SILIN.
+Education> Setup> Subjects
+3.7) Ismi MySubjectCat olan bir SubjectCategories oluşturun. (Education> Setup>
+SubjectCategories) buradan Subjects kısmına gidip add kisminda yeni bir subject
+ekleyin. (Education> Setup> Subjects) Daha sonra Subject Category den henüz
+oluşturduğunuz MySubjectCat secin. Bir Subjects oluşturduktan sonra onu Subject
+Category den silmeyi deneyin ve SILINMEDIGINI test edin.
+ 3.8) Yeni bir Position Salary oluşturun onu DUZENLEYIN (editleyin) ve onu
+SILIN.
+Human Resources > Setup > Position Salary
+Yeni bir Positions oluşturun onu DUZENLEYIN (editleyin) ve onu SILIN.
+Human Resources > Setup > Positions
+3.9) Yeni bir Excel Template oluşturun onu DUZENLEYIN (editleyin) ve SILIN.
+Reports > Setup > Excel Template
+Yeni bir Salary Types oluşturun onu DUZENLEYIN(editleyin) ve SILIN.
+Human Resources > Setup > Salary Types , edit the Salary Types
+3.10) Yeni bir Salary Modifiers oluşturun onu DUZENLEYIN (editleyin) ve onu
+SILIN.
+Human Resources > Setup > Salary Modifiers
+Yeni bir Salary Constants oluşturun onu DUZENLEYIN (editleyin) ve onu SILIN.
+Human Resources > Setup > Salary Constants
+3.11) Yeni bir Budget Groups oluşturun onu DUZENLEYIN (editleyin) ve onu
+SILIN.
+ Budget > Setup > Budget Groups
+3.12) Yeni bir Cost Centers oluşturun onu DUZENLEYIN (editleyin) ve onu SILIN.
+Budget > Setup > Cost Centers
+4) Features kismini bitirdikten sonra.
+Kod GitHub a push edilmeli EGER bir kodlarda bir uyuşmazlık olursa bu durum
+ortadan kaldirilmali.
+
+
+
+
+
+
+Project:
+
+1) Create a framework together as a team
+    1.1) You should add dependencies together.
+    1.2) You should create basic part of the framework together as well (Driver class , Parent Class)
+
+2) Step 1 framework should be created together and push the code. Rest of the team should clone the project
+        and after this point everyone should do their own task.
+
+3) These are the features which you need to work on.
+
+    3.1)    Create a county Delete a country
+    3.2)    Create a city Delete a city
+    3.3)    Create a country (name is SOMECOUNTRY )and create a city (choose a SOMECOUNTRY from the country dropdown.) . Remove
+        country and city. First try to remove country you should be able to see error message.
+            After adding city for country should not be deleted. Test this scenario as well.
+
+    3.5)    Create a Education> Setup> SubjectCategories delete a SubjectCategories
+
+       3.6)    Create a Education> Setup> Subjects delete a Subjects -
+    3.7)    Create a Education> Setup> SubjectCategories(name is MySubjectCat ) and create a Education> Setup> Subjects
+        (Choose a Subject Category is MySubjectCat).
+            After creating the Subjects try to remove subject categories make sure it is not removing. Test this scenario as well.
+
+    3.8)    Create a Human Resources > Setup > Position Salary , edit the position Salary , delete the position Salary
+            Create a Human Resources > Setup > Positions , edit the Positions , delete the Positions
+
+    3.9)    Create Reports > Setup > Excel Template edit the excel template and delete the excel Template
+            Create a Human Resources > Setup > Salary Types , edit the Salary Types , delete the Salary Types
+
+    3.10)   Create a Human Resources > Setup > Salary Modifiers , edit the Salary Modifiers , delete the Salary Modifiers
+            Create a Human Resources > Setup > Salary Constants , edit the Salary Constants , delete the Salary Constants
+
+    3.11)   Create a Budget > Setup > Budget Groups , edit the Budget Groups  , delete the Budget Groups
+    3.12)   Create a Budget > Setup > Cost Centers , edit the Cost Centers  , delete the Cost Centers
+
+4) After everyone finished features. Should push the code to github if there is a conflict solve the conflict.
+
+
+PROJE
+1.0) Grup olarak birlikte bir framework oluşturun.
+1.1) Dependencies kodlarını grubunuz ile birlikte ekleyin.
+1.2) Framework'unuzun temel kisimlarini da birlikte oluşturmalısınız. (Driver class ,
+Parent Class seklinde)
+2. Framework`unuzu grup olarak olusturun ve ardından kodu push edin. Daha sonra
+grubunuzun herbir uyesi projeyi klonlamalı ve bu noktadan sonra herkes kendi
+görevine yogunlasmali.
+3. Asagidaki features kisimlari uzerinde çalısmaya baslaya bilirsiniz.
+3.1)MUHAMMED BY…… Create a country Delete a country. (Bir ulke oluşturun ve onu silin)
+
+3.2) MUHAMMED BY….Create a city Delete a city. (Bir sehir oluşturun ve onu silin)
+
+3.3) MUSTAFA BY……….Create a country (name is SOMECOUNTRY )and create a city (choose a
+SOMECOUNTRY from the country dropdown.)
+Bir ülke oluşturun (adı SOMECOUNTRY) olsun ve bir şehir oluşturun (ülkeler
+listesinden önce SOMECOUNTRY ülkesini seçin ve daha sonra bir sehir (ismini siz
+belirleyip) oluşturun.
+Amacınız burada oluşturduğunuz ülkeyi ve sehri silmek.
+Ilk olarak ülkenizi silmeye calisin, ekranda HATA mesajini görmeniz gerekmekte. …..
+
+ 3.4) BEKİR BY …..Sisteme eklediginiz ulkenize bir sehir ekledikden sonra Ulkeniz
+SILINEMEMELI. (Bu senaryo mukakkak test edilmeli.) ….
+
+
+
+3.5) HUSEYIN  BY……….Yeni bir SubjectCategories oluşturun ve daha sonra bir tane SubjectCategories
+SILIN.
+Education> Setup> SubjectCategories……
+
+
+ 3.6) MALİK BY ……..Yeni bir Subjects oluşturun ve daha sonra bir tane Subjects SILIN.
+Education> Setup> Subjects….
+
+
+3.7) HAKAN BY ……..Ismi MySubjectCat olan bir SubjectCategories oluşturun. (Education> Setup>
+SubjectCategories) buradan Subjects kısmına gidip add kisminda yeni bir subject
+ekleyin. (Education> Setup> Subjects) Daha sonra Subject Category den henüz
+oluşturduğunuz MySubjectCat secin. Bir Subjects oluşturduktan sonra onu Subject
+Category den silmeyi deneyin ve SILINMEDIGINI test edin.
+
+ 3.8) MUSTAFA BY………………. Yeni bir Position Salary oluşturun onu DUZENLEYIN (editleyin) ve onu
+SILIN.
+Human Resources > Setup > Position Salary
+Yeni bir Positions oluşturun onu DUZENLEYIN (editleyin) ve onu SILIN.
+Human Resources > Setup > Positions
+
+3.9)BEKİR BY….. Yeni bir Excel Template oluşturun onu DUZENLEYIN (editleyin) ve SILIN.
+Reports > Setup > Excel Template
+Yeni bir Salary Types oluşturun onu DUZENLEYIN(editleyin) ve SILIN.
+Human Resources > Setup > Salary Types , edit the Salary Types
+3.10) HUSEYIN BY………..Yeni bir Salary Modifiers oluşturun onu DUZENLEYIN (editleyin) ve onu
+SILIN.
+Human Resources > Setup > Salary Modifiers
+Yeni bir Salary Constants oluşturun onu DUZENLEYIN (editleyin) ve onu SILIN.
+Human Resources > Setup > Salary Constants
+
+3.11)MALİK BY……………Arkadaşlar 3.11) Yeni bir Budget Groups  bölümün yerine
+Setup -> Bank Account test edilecek bilginize
+
+3.12)HAKAN BY………………. Yeni bir Cost Centers oluşturun onu DUZENLEYIN (editleyin) ve onu SILIN.
+Budget > Setup > Cost Centers
+4) Features kismini bitirdikten sonra.
+Kod GitHub a push edilmeli EGER bir kodlarda bir uyuşmazlık olursa bu durum
+ortadan kaldirilmali.
